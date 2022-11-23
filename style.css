@@ -1,0 +1,62 @@
+body{
+    background-color:dimgray;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    text-align: center;
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 300px;
+    width: 300px;
+    margin: 20px;;
+}
+
+.start{
+    height: 60px;
+    width: 60px;
+    margin: 0;;
+}
+
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+
+.active{
+    opacity: 0.5;
+    border-color: rgb(36, 0, 238);
+}
+
+.start{
+    width: 200px;
+    height: 100px;
+}
+
+.wrong{
+    background-color: crimson;
+}
